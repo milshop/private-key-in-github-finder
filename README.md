@@ -1,9 +1,9 @@
 
-# Use big query on Google to search private-key in high speed and check if it's have balance.
+# Use big query on Google cloud to search private-key in high speed and check if it's have balance.
 
 
 
-# 1.create your own big query sql on google clould to get private key on EVM chain
+1.create your own big query sql on google clould to get private key on EVM chain
 Eg:
 WITH numbered_results AS (
   SELECT
@@ -37,11 +37,11 @@ FROM
 WHERE
   row_num = 1
 
-# 2: put the key into `PRIVATE_KEYS_FILE.csv`
+ 2: put the key into `PRIVATE_KEYS_FILE.csv`
 
-# 3: input your own infura key or url
+ 3: input your own infura key or url
 
-# to RUN
+# RUN
 
 javasript version: 
 `yarn`
