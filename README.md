@@ -1,8 +1,6 @@
-# private-key-in-github-finder
 
-private-key-in-github-finder
 
-#1.create your own big query sql on google clould to get private key on EVM\
+# 1.create your own big query sql on google clould to get private key on EVM\
 Eg:
 WITH numbered_results AS (
   SELECT
@@ -36,11 +34,11 @@ FROM
 WHERE
   row_num = 1
 
-#2: put the key into `PRIVATE_KEYS_FILE.csv`
+# 2: put the key into `PRIVATE_KEYS_FILE.csv`
 
-#3: input your own infura key or url
+# 3: input your own infura key or url
 
-#to RUN
+# to RUN
 
 javasript version: 
 `yarn
