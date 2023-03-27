@@ -43,11 +43,11 @@ WHERE
 
 # RUN
 
-javascript: 
-`yarn`
+javascript:     
+`yarn`    
 `node checkBalance.js`
 
-python:
+python:    
 `python3 checkBalance.js`
 
 
