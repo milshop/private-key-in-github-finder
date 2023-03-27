@@ -4,7 +4,7 @@ private-key-in-github-finder
 
 1.create your own big query sql on google clould to get private key on EVM\
 Eg:
-`WITH numbered_results AS (
+WITH numbered_results AS (
   SELECT
     f.repo_name,
     f.path,
@@ -34,7 +34,7 @@ SELECT
 FROM
   numbered_results
 WHERE
-  row_num = 1`
+  row_num = 1
 
 2: put into `PRIVATE_KEYS_FILE.csv`
 
