@@ -2,7 +2,7 @@
 
 private-key-in-github-finder
 
-1.create your own big query sql on google clould
+1.create your own big query sql on google clould to get private key on EVM\
 Eg:
 `WITH numbered_results AS (
   SELECT
