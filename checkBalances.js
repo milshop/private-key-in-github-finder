@@ -5,7 +5,7 @@ const csvParser = require("csv-parser");
 const { ethers } = require("ethers");
 
 // 使用Infura作为提供者，请将 YOUR_API_KEY 替换为你的 Infura API 密钥
-var url = `https://arbitrum-mainnet.infura.io/v3/e11ebb56ace94b919fd694e2c232765c`;
+var url = `https://arbitrum-mainnet.infura.io/v3/<your own key>`;
 const provider = new ethers.providers.JsonRpcProvider(url);
 
 // 用于读取CSV文件的帮助函数
