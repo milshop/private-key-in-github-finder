@@ -43,7 +43,7 @@ WHERE
 
 # RUN
 
-javasript version: 
+javascript: 
 `yarn`
 `node checkBalance.js`
 
