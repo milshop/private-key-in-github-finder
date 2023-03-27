@@ -2,7 +2,7 @@ import pandas as pd
 from web3 import Web3
 
 # 使用Infura作为提供者，请将 YOUR_API_KEY 替换为你的 Infura API 密钥
-url = "https://arbitrum-mainnet.infura.io/v3/e11ebb56ace94b919fd694e2c232765c"
+url = "https://arbitrum-mainnet.infura.io/v3/<your own key>"
 provider = Web3.HTTPProvider(url)
 w3 = Web3(provider)
 
