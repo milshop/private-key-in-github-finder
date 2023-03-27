@@ -41,8 +41,8 @@ WHERE
 # to RUN
 
 javasript version: 
-`yarn
-node checkBalance.js`
+`yarn`
+`node checkBalance.js`
 
 python:
 `python3 checkBalance.js`
