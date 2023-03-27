@@ -1,4 +1,7 @@
 
+# Use big query on Google to search private-key in high speed and check if it's have balance.
+
+
 
 # 1.create your own big query sql on google clould to get private key on EVM chain
 Eg:
