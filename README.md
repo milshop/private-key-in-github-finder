@@ -1,5 +1,5 @@
 
-# Use big query on Google cloud to search private-key in high speed and check if it's have balance.
+# Use big query on Google cloud to search private-key in high speed on github and check if it's have balance.
 
 
 
